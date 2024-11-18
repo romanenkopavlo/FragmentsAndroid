@@ -3,4 +3,9 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context=".Fragment2" android:background="#FFEB3B"/>
+             tools:context=".Fragment2" android:background="#FFEB3B">
+    <TextView
+            android:text="Fragment 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView3"/>
+</FrameLayout>
