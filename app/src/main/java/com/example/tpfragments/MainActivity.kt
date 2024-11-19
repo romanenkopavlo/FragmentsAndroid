@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
 //        binding.numberField.setText("0")
 //
 //        binding.buttonPlus.setOnClickListener {

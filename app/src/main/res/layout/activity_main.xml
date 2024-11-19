@@ -8,12 +8,12 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
     <androidx.fragment.app.FragmentContainerView
-            android:layout_width="378dp"
-            android:layout_height="587dp" android:id="@+id/fragmentContainerView1"
+            android:layout_width="407dp"
+            android:layout_height="649dp" android:id="@+id/fragmentContainerView1"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.312"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.015"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.545"/>
+            app:layout_constraintHorizontal_bias="0.4"/>
     <Button
             android:text="Fragment 1"
             android:layout_width="wrap_content"

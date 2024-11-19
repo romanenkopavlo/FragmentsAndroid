@@ -4,8 +4,36 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              tools:context=".Fragment2" android:background="#FFEB3B">
-    <TextView
-            android:text="Fragment 2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/textView3"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="Fragment 2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:gravity="center" android:textSize="20sp"/>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="330dp"/>
+        <TextView
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/numeroVariable2" android:gravity="center"
+                android:textSize="24sp"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:gravity="center|center_vertical">
+            <Button
+                    android:text="-"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content" android:id="@+id/button" android:layout_weight="1"
+                    android:gravity="center_vertical"/>
+            <Button
+                    android:text="+"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button3" android:layout_weight="1"
+                    android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
 </FrameLayout>
