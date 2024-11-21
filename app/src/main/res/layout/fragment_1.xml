@@ -1,44 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:background="#03A9F4">
-    <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
 
-        <LinearLayout
-                android:orientation="vertical"
+    </data>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#03A9F4">
+        <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" android:gravity="center_horizontal|center_vertical">
-            <TextView
-                    android:text="Fragment 1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="start|center_horizontal" android:textSize="20sp"/>
-            <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="330dp"/>
-            <TextView
-                    android:text="0"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/numeroVariable1" android:textSize="24sp"/>
+                android:layout_height="match_parent">
+
             <LinearLayout
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="330dp" android:gravity="center|center_vertical">
-                <Button
-                        android:text="-"
-                        android:layout_width="78dp"
-                        android:layout_height="wrap_content" android:id="@+id/button" android:layout_weight="1"
-                        android:gravity="center_vertical"/>
-                <Button
-                        android:text="+"
+                    android:layout_height="match_parent" android:gravity="center_horizontal|center_vertical">
+                <TextView
+                        android:text="Fragment 1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" android:id="@+id/button3" android:layout_weight="1"
-                        android:gravity="center"/>
+                        android:layout_height="wrap_content"
+                        android:gravity="start|center_horizontal" android:textSize="20sp"/>
+                <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="239dp"/>
+                <TextView
+                        android:text="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/numeroVariable" android:textSize="24sp"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="330dp" android:gravity="center|center_vertical">
+                    <Button
+                            android:text="-"
+                            android:layout_width="78dp"
+                            android:layout_height="wrap_content" android:id="@+id/buttonMoins" android:layout_weight="1"
+                            android:gravity="center_vertical"/>
+                    <Button
+                            android:text="+"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/buttonPlus" android:layout_weight="1"
+                            android:gravity="center"/>
+                </LinearLayout>
             </LinearLayout>
-        </LinearLayout>
-    </RelativeLayout>
-</FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</layout>
